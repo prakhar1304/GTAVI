@@ -73,7 +73,7 @@ function App() {
         scale:0.9,
         x: "-50%",
         rotate:0,
-        bottom : "-50%",
+        bottom : "-51%",
         duration: 2,
         delay: "-.8",
         ease : "Expo.easeInOut",
