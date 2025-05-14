@@ -18,7 +18,7 @@ function App() {
       transformOrigin: "50%  50%",
     }).to(".vi-mask-group", {
       scale: 20,
-      delay: -1.7, //cause   this  will  run  after   first  one  and  to make  this run  just  after  slight roation
+      delay: -1.8, //cause   this  will  run  after   first  one  and  to make  this run  just  after  slight roation
       transformOrigin: "50% 50%",
       ease: "expo.easeInOut",
       duration: 2,
@@ -70,10 +70,10 @@ function App() {
       })
 
       gsap.to(".char" , {
-        scale:0.9,
+        scale:0.8,
         x: "-50%",
         rotate:0,
-        bottom : "-51%",
+        bottom : "-51.5%",
         duration: 2,
         delay: "-.8",
         ease : "Expo.easeInOut",
